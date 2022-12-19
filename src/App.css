@@ -1,0 +1,64 @@
+.App {
+  padding: 0% 5px;
+  margin: 0% 5%;
+  text-align: center;
+  background-color: black;
+}
+
+.popular-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+
+}
+
+img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  
+  margin-bottom: 1rem;
+}
+
+.header-logo {
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid;
+  background-color: rgb(255, 255, 128);
+}
+
+.header-logo input {
+  padding: 5px;
+  width: 55%;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.price-shop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  font-size: 12px;
+
+}
+
+.movies {
+  background-color: rgb(255, 255, 128);
+  border-radius: 1rem;
+}
+.search{
+  color: red;
+}
